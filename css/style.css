@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    min-height: 100vh;
+    padding-bottom: 168px;
+}
+
+.container {}
