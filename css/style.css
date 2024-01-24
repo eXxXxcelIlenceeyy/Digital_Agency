@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -15,22 +25,122 @@ a {
     color: inherit;
 }
 
+img {
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    color: inherit;
+}
+
 html,
 body {
+    background: #12141D;
     height: 100%;
+    color: #FFF;
 }
 
 body {
     font-family: Poppins, sans-serif;
 }
 
+.info-about-SakaAgency {
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
 .wrapper {
     min-height: 100%;
 }
 
-.header {
-    min-height: 100vh;
-    padding-bottom: 168px;
+.nav-bar {
+    padding: 14px 0;
 }
 
-.container {}
+.container {
+    width: 1110px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-wrap {}
+
+.logo {}
+
+.nav__menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__menu-item {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.primary-btn {
+    padding: 13.5px 27px;
+    background: #4080BF;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+/* -----------------HERO--------------------- */
+
+.hero {}
+
+.office-agency {
+    position: relative;
+    background-image: url(../img/office.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 325px 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /* |||| почему на половину только задвигается??*/
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(106deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%);
+}
+
+.office-agency__content {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}
+
+.office-agency__desc {
+    width: 747px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 61px;
+    font-weight: 800;
+    line-height: 92px;
+    margin-bottom: 10px;
+}
+
+.office-agency__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+}
