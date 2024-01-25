@@ -144,3 +144,62 @@ body {
     font-weight: 400;
     line-height: 38px;
 }
+
+/* -----------------ABOUT-US--------------------- */
+
+.about-us {}
+
+.suptitle {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-us__item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.about-us_wrap-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    height: max-content;
+    width: 70px;
+    height: 70px;
+    background: #1E2028;
+    border-radius: 50%;
+}
+
+.about-us__icon-wrap {}
+
+.icon {}
+
+.about-us__desc {
+    width: 440px;
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about-us__text {
+    margin-top: 14.8px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: capitalize;
+}
