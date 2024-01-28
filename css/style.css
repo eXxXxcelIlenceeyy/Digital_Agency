@@ -26,8 +26,8 @@ a {
 }
 
 img {
-    height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 button {
@@ -102,30 +102,26 @@ body {
 .hero {}
 
 .office-agency {
-    position: relative;
     background-image: url(../img/office.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 325px 0;
+    border-radius: 20px;
 }
 
 .overlay {
-    position: absolute;
     height: 100%;
     width: 100%;
-    top: 0;
-    /* |||| почему на половину только задвигается??*/
-    left: 0;
     border-radius: 20px;
     background: linear-gradient(106deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 212.32px;
+    padding-bottom: 90px;
 }
 
-.office-agency__content {
-    position: absolute;
-    right: 0;
-    bottom: 90px;
-}
+.office-agency__content {}
 
 .office-agency__desc {
     width: 747px;
@@ -170,7 +166,7 @@ body {
     margin-bottom: 30px;
 }
 
-.about-us_wrap-wrap {
+.about-us_icon-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
