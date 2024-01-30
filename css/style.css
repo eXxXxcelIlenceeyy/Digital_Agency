@@ -211,6 +211,7 @@ body {
 .services {}
 
 .services__katalog {
+    align-items: stretch;
     gap: 30px;
 }
 
@@ -218,11 +219,14 @@ body {
     border-radius: 10px;
     background: #1E2028;
     padding: 20px 22px 35px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    height: 100%;
 }
 
-.services__icon-wrap {
-    margin-bottom: 50px;
-}
+.services__icon-wrap {}
 
 .services__desc {
     max-width: 306px;
@@ -238,7 +242,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 175%;
-    margin-bottom: 50px;
 }
 
 .more-info {
