@@ -199,3 +199,60 @@ body {
     line-height: 30px;
     text-transform: capitalize;
 }
+
+.services {}
+
+.services__suptitle {
+    text-align: center;
+}
+
+/* -----------------SERVICES--------------------- */
+
+.services {}
+
+.services__katalog {
+    gap: 30px;
+}
+
+.services__item {
+    border-radius: 10px;
+    background: #1E2028;
+    padding: 20px 22px 35px 22px;
+}
+
+.services__icon-wrap {
+    margin-bottom: 50px;
+}
+
+.services__desc {
+    max-width: 306px;
+}
+
+.services__subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services__text {
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    margin-bottom: 50px;
+}
+
+.more-info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.go-to-info {
+    color: #A1C5E9;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow__wrap {}
