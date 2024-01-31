@@ -259,3 +259,69 @@ body {
 }
 
 .arrow__wrap {}
+
+/* -----------------PROJECT--------------------- */
+
+.projects {}
+
+.projects__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__suptitle {
+    font-size: 50px;
+}
+
+.projects__katalog {
+    gap: 30px;
+}
+
+.projects__item {}
+
+.projects__img-wrap {
+    height: 305px;
+}
+
+.projects__img {
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* -----------------FOUNDER--------------------- */
+
+.founder {}
+
+.founder__suptitle {
+    text-align: center;
+    font-size: 50px;
+    line-height: normal;
+}
+
+.founder__katalog {}
+
+.founder__item {
+    display: flex;
+    align-items: end;
+    gap: 13px;
+}
+
+.founder__desc {
+    width: 207px;
+}
+
+.founder__subtitle {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.founder__text {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 185.714%;
+}
+
+.founder__img-wrap {}
